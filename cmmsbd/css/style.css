@@ -1,0 +1,109 @@
+#header{
+	background-color: #c0c0c0;
+}
+
+#header > a, h1{
+	margin: 10px;
+}
+
+#upNav, #downNav{
+
+}
+
+#upNav{
+	margin-left: 300px;
+}
+#downNav{
+	margin-right: 200px;
+}
+
+#header li > a{
+	margin: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	margin-top: 10px;
+	color:#5D2F60;
+}
+
+#contact{
+		background: url(../img/background/road5.PNG) no-repeat center center;
+		opacity: .9;
+}
+
+h1{
+	font-size:45px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.circle-icon {
+	padding:30px;
+	border-radius: 50%;
+}
+ #features{
+	background: url(../img/background/Capture.PNG) no-repeat center center;
+	opacity: .9;
+}
+
+.test, h2{
+	border-radius:50%;
+	font-size:30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: black;
+}
+
+#publications{
+	background: url(../img/background/citylight.jpeg) no-repeat center center;
+	opacity: .9;
+}
+
+ #team{
+	background: url(../img/background/office.jpg)  center center;
+}
+.person1,.person2,.person3,.person4,.person5{
+
+}
+.person,.director{
+	border-radius: 50%;
+}
+
+.person{
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	height: 175px;
+}
+.director{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	height: 250px;
+}
+
+
+
+.triangle{
+	width: 0;
+	height: 0; 
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 150px solid white;
+}
+
+.column{
+	margin-top: 10px;
+	height: 450px;
+	opacity: 0.9;
+}
+
+#aboutUs{
+	background: url(../img/background/findus.jpg) no-repeat center center;
+}
+
+#aboutUs h1{
+	margin-top: 100px;
+	font-weight: bold;
+}

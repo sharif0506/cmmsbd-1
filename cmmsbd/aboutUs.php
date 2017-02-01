@@ -11,37 +11,25 @@
         <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
     </head>
-    <body >
-        <?php
-        include "header.php";
-        //include "createPublication.php";
+    <body>
+        <?php include "header.php";
+        //session_start();
         ?>
+
         <div class="container">
-            <br /><br /><br />
-            <div align="center" id="publications" class="span12" >
-                
-                <div class="span4" style="background-color:lightblue; height: 400px; opacity: 0.7;margin-top: 10px;margin-bottom:  10px;">
-                    <i class="btn btn-danger test fa fa-5x fa-file-text" aria-hidden="true"></i>
-                    <h2 class="test">Publication</h2>
-                </div>
-               
-                <div class="span3" style="background-color:lightgrey; height: 400px; opacity: 0.7;margin-top: 10px;margin-bottom:  10px;">
-                     <i class="btn btn-info test fa fa-5x fa-video-camera" aria-hidden="true"></i>
-                    <h2 class="test">Documentary</h2>
-                </div>
-                <div class="span4" style="background-color:lightgoldenrodyellow; height: 400px;opacity: 0.7;margin-top: 10px;">
-                     <i class="btn btn-primary test fa fa-5x fa-camera" aria-hidden="true"></i>
-                    <h2 class="test">CMMS in Media</h2>
-                </div>
-                    <br />
-
-                 
+            <div id="aboutUs" class="row" class="span12"  style="padding-top:40px; text-align:center">
+                <h1 style="color:white">GET IN TOUCH WITH CMMS</h1>
+                <br/> <br/><br/><br/><br/>
+                <span id="socialMedia" style="margin-top: 50px;">
+                    <i class="btn btn-primary fa-5x  circle-icon fa fa-facebook"></i>
+                    <i class="btn btn-info fa-5x circle-icon fa fa-twitter"></i>
+                    <i class="btn btn-danger  fa-5x circle-icon fa fa-google-plus"></i>
+                    <i class="btn btn-info fa-5x circle-icon fa fa-linkedin"></i>
+                    <i class="btn btn-danger fa-5x circle-icon fa fa-youtube"></i>
+                </span>
+                <br/><br/><br/><br/><br/>
             </div>
-
-            <?php //include "footer.php";  ?>
         </div>
-
-
         <!-- /container -->
         <!--
         <script src="js/jquery-1.7.1.min.js"></script>
@@ -62,7 +50,13 @@
         <script src="js/lightbox.js"></script>
         -->
 
-
-
     </body>
 </html>
+
+
+
+
+
+
+
+

@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
         <link href="css/bootstrap-responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
@@ -21,10 +22,10 @@
         ?>
 
 
-        <div class="container">
+        <div class="container-fluid">
             <!--Start Carousel-->
             <div id="myCarousel" class="carousel slide">
-                <div class="carousel-inner">
+                <div class="carousel-inner" align ="center">
                     <div class="item active"> <img src="img/featured/1.jpg" alt=""></div>
                     <div class="item"> <img src="img/featured/2.jpg" alt=""></div>
                     <div class="item"> <img src="img/featured/10.jpg" alt=""></div>
@@ -62,14 +63,14 @@
             </div>
 
 
-            <div class="span6" >
+            <div class="span7" >
                 <h2>Publications</h2>
                 <hr />     
                 <div class="span2"><a  href="#" style="text-decoration: none"><img src="img/home/pub2.PNG" height="200"  /><br /> Publication 1</a></div>                
 
                 <div class="span2"><a  href="#" style="text-decoration: none"><img src="img/home/pub3.PNG" height="200"  /><br /> Publication 2</a></div> 
                 
-                <div class="span1"><a  href="#" style="text-decoration: none"><img src="img/home/pub1.PNG" height="200"  /><br />  Publication 3</a></div> 
+                <div class="span2"><a  href="#" style="text-decoration: none"><img src="img/home/pub1.PNG" height="200"  /><br />  Publication 3</a></div> 
                 
             </div>
 

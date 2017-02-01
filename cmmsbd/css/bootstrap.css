@@ -3615,7 +3615,7 @@ input[type="submit"].btn.btn-mini {
 	transition: opacity .5s linear
 }
 .row .span4 img:hover {
-	opacity:0.85;
+	/*opacity:0.85;
 	filter:alpha(opacity=85); /* For IE8 and earlier */
 }
 
@@ -3830,10 +3830,10 @@ input[type="submit"].btn.btn-mini {
   -o-transition: background-position .5s ease, color .8s ease;
 }
 .navbar .nav > li > a:hover {
-  color: #fff;
+  color: #A0522D;
   background-position: 0 0;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #B0C4DE;
   font-family: 'Lato', sans-serif;
 }
 
@@ -5020,7 +5020,7 @@ a.badge:hover {
 	transition: opacity .5s linear
 }
 .row .span4 img:hover {
-	opacity:0.85;
+	/*opacity:0.85;
 	filter:alpha(opacity=85); /* For IE8 and earlier */
 }
 .thumb-list img{
